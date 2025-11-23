@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
-import { Facebook, Instagram, Twitter } from 'lucide-react'
+import { Mail, Phone, Github, Linkedin, Instagram } from 'lucide-react'
 
 function Footer() {
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/VickyNarvare', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/vickynarvare', label: 'LinkedIn' },
+    { icon: Instagram, href: 'https://instagram.com/vickynarvare', label: 'Instagram' },
   ]
 
   return (
@@ -22,77 +22,92 @@ function Footer() {
             </p>
           </div>
 
-          {/* Our Services */}
+          {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-extrabold mb-4 text-coffee-900">Our Services</h3>
+            <h3 className="text-xl font-extrabold mb-4 text-coffee-900">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <Link to="/track-order" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
-                  Tracking
+                <Link to="/" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
+                  Home
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
-                  Report a Bug
-                </a>
+                <Link to="/menu" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
+                  Menu
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
-                  Terms of Services
-                </a>
+                <Link to="/our-story" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
+                  Our Story
+                </Link>
+              </li>
+              <li>
+                <Link to="/track-order" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
+                  Track Order
+                </Link>
               </li>
             </ul>
           </div>
 
-          {/* Our Company */}
+          {/* Services */}
           <div>
-            <h3 className="text-xl font-extrabold mb-4 text-coffee-900">Our Company</h3>
+            <h3 className="text-xl font-extrabold mb-4 text-coffee-900">Services</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
-                  Pricing
+                  QR Code Ordering
                 </a>
               </li>
               <li>
                 <a href="#" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
-                  Tracking
+                  Real-time Tracking
                 </a>
               </li>
               <li>
                 <a href="#" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
-                  Report a Bug
+                  Custom Orders
                 </a>
               </li>
               <li>
                 <a href="#" className="text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium">
-                  Terms of Services
+                  Loyalty Program
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Address */}
+          {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-extrabold mb-4 text-coffee-900">Address</h3>
-            <p className="text-coffee-600 text-sm leading-relaxed font-medium mb-4">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            </p>
-            <div className="flex gap-4">
+            <h3 className="text-xl font-extrabold mb-4 text-coffee-900">Contact Us</h3>
+            <div className="space-y-3 mb-4">
+              <a
+                href="mailto:vickynarvare2005@gmail.com"
+                className="flex items-center gap-2 text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium"
+              >
+                <Mail className="w-4 h-4" />
+                vickynarvare2005@gmail.com
+              </a>
+              <a
+                href="tel:+916267607029"
+                className="flex items-center gap-2 text-coffee-600 hover:text-coffee-900 transition-colors text-sm font-medium"
+              >
+                <Phone className="w-4 h-4" />
+                +91 6267607029
+              </a>
+            </div>
+            <div className="flex gap-3">
               {socialLinks.map((social) => {
                 const Icon = social.icon
                 return (
                   <a
                     key={social.label}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     aria-label={social.label}
-                    className="w-12 h-12 rounded-xl bg-coffee-100 flex items-center justify-center border border-coffee-200"
+                    className="w-10 h-10 rounded-lg bg-coffee-100 hover:bg-coffee-200 flex items-center justify-center border border-coffee-200 transition-all hover:scale-110"
                   >
-                    <Icon className="w-6 h-6 text-coffee-700" />
+                    <Icon className="w-5 h-5 text-coffee-700" />
                   </a>
                 )
               })}
@@ -100,8 +115,13 @@ function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-coffee-200 mt-8 pt-8 text-center text-sm text-coffee-600">
-          <p>&copy; 2025 BrewNow Café. All rights reserved.</p>
+        <div className="border-t border-coffee-200 mt-8 pt-8 text-center">
+          <p className="text-sm text-coffee-600 mb-2">
+            &copy; 2025 BrewNow Café. All rights reserved.
+          </p>
+          <p className="text-xs text-coffee-500">
+            Developed with ❤️ by <span className="font-semibold text-coffee-700">Vicky Narvare</span>
+          </p>
         </div>
       </div>
     </footer>

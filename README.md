@@ -263,10 +263,23 @@ This project is open source and available under the MIT License.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## 👨‍💻 Developer
+
+**Vicky Narvare**
+
+- 📧 Email: [vickynarvare2005@gmail.com](mailto:vickynarvare2005@gmail.com)
+- 📱 Phone: +91 6267607029
+- 💼 LinkedIn: [linkedin.com/in/vickynarvare](https://linkedin.com/in/vickynarvare)
+- 🐙 GitHub: [github.com/VickyNarvare](https://github.com/VickyNarvare)
+- 📸 Instagram: [instagram.com/vickynarvare](https://instagram.com/vickynarvare)
+
 ## 📧 Contact
 
-For questions or support, please open an issue in the repository.
+For questions, support, or collaboration opportunities, feel free to reach out:
+- Email: vickynarvare2005@gmail.com
+- Open an issue in the repository
 
 ---
 
-**Made with ☕ and ❤️ for coffee lovers**
+**Made with ☕ and ❤️ by Vicky Narvare**
+
