@@ -24,7 +24,7 @@ function Contact() {
             Visit Us
           </h2>
           <p className="text-xl md:text-2xl text-coffee-600 max-w-3xl mx-auto font-medium">
-            Come experience the warmth and aroma of BrewNow Café
+            Come experience the warmth and aroma of Coffee Cup
           </p>
         </div>
 
@@ -120,7 +120,7 @@ function Contact() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
                   <MapPin className="w-16 h-16 text-coffee-400 mx-auto mb-4" />
-                  <p className="text-coffee-900 font-bold">BrewNow Café Location</p>
+                  <p className="text-coffee-900 font-bold">Coffee Cup Location</p>
                   <p className="text-sm text-coffee-600 mt-2">MG Road, Indore, MP</p>
                 </div>
               </div>

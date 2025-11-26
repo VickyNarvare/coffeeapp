@@ -14,7 +14,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-extrabold mb-2 text-coffee-900">BrewNow Café</h3>
+            <h3 className="text-xl font-extrabold mb-2 text-coffee-900">Coffee Cup</h3>
             <p className="text-xs font-normal text-coffee-600 mb-4">Wake up to something special</p>
             <p className="text-coffee-600 text-sm leading-relaxed font-medium">
               Experience the perfect blend of tradition and technology.
@@ -117,7 +117,7 @@ function Footer() {
 
         <div className="border-t border-coffee-200 mt-8 pt-8 text-center">
           <p className="text-sm text-coffee-600 mb-2">
-            &copy; 2025 BrewNow Café. All rights reserved.
+            &copy; 2025 Coffee Cup. All rights reserved.
           </p>
           <p className="text-xs text-coffee-500">
             Developed with ❤️ by <span className="font-semibold text-coffee-700">Vicky Narvare</span>

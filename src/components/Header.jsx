@@ -26,11 +26,10 @@ function Header({ onCartOpen }) {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-white/80 backdrop-blur-xl shadow-lg border-b border-coffee-200'
-          : 'bg-white/60 backdrop-blur-xl'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+        ? 'bg-white/80 backdrop-blur-xl shadow-lg border-b border-coffee-200'
+        : 'bg-white/60 backdrop-blur-xl'
+        }`}
     >
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
@@ -42,7 +41,7 @@ function Header({ onCartOpen }) {
               <Coffee className="w-6 h-6 text-white" />
             </div>
             <div>
-              <span className="tracking-tight block">BrewNow</span>
+              <span className="tracking-tight block">Coffee Cup</span>
               <span className="text-xs font-normal text-coffee-600">Wake up to something special</span>
             </div>
           </Link>
@@ -53,11 +52,10 @@ function Header({ onCartOpen }) {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-semibold transition-all duration-300 ${
-                  location.pathname === link.path
-                    ? 'text-coffee-900 border-b-2 border-coffee-900 pb-1'
-                    : 'text-coffee-700 hover:text-coffee-900'
-                }`}
+                className={`text-sm font-semibold transition-all duration-300 ${location.pathname === link.path
+                  ? 'text-coffee-900 border-b-2 border-coffee-900 pb-1'
+                  : 'text-coffee-700 hover:text-coffee-900'
+                  }`}
               >
                 {link.label}
               </Link>
@@ -110,11 +108,10 @@ function Header({ onCartOpen }) {
                 key={link.path}
                 to={link.path}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className={`block py-2 px-4 text-sm font-medium transition-colors ${
-                  location.pathname === link.path
-                    ? 'text-coffee-900 bg-coffee-100 rounded-md'
-                    : 'text-coffee-700 hover:text-coffee-900 hover:bg-coffee-50 rounded-md'
-                }`}
+                className={`block py-2 px-4 text-sm font-medium transition-colors ${location.pathname === link.path
+                  ? 'text-coffee-900 bg-coffee-100 rounded-md'
+                  : 'text-coffee-700 hover:text-coffee-900 hover:bg-coffee-50 rounded-md'
+                  }`}
               >
                 {link.label}
               </Link>

@@ -30,7 +30,7 @@ function OurStory() {
       <section className="relative py-24 bg-gradient-to-br from-cream-50 via-cream-100 to-cream-200 overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-coffee-200 rounded-full opacity-20 blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-coffee-300 rounded-full opacity-20 blur-3xl"></div>
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-block mb-6">
@@ -56,18 +56,18 @@ function OurStory() {
                   The Beginning
                 </h2>
                 <p className="text-lg md:text-xl text-coffee-600 mb-4 leading-relaxed font-medium">
-                  BrewNow Café was born from a simple idea: what if ordering coffee could be as seamless as scanning a QR code? 
-                  Founded in 2020, we set out to revolutionize the café experience by combining the warmth of traditional coffee 
+                  Coffee Cup was born from a simple idea: what if ordering coffee could be as seamless as scanning a QR code?
+                  Founded in 2020, we set out to revolutionize the café experience by combining the warmth of traditional coffee
                   culture with cutting-edge technology.
                 </p>
                 <p className="text-lg md:text-xl text-coffee-600 leading-relaxed font-medium">
-                  Our founders, passionate coffee enthusiasts and tech innovators, envisioned a space where customers could 
+                  Our founders, passionate coffee enthusiasts and tech innovators, envisioned a space where customers could
                   enjoy premium coffee without the hassle of waiting in long lines or flagging down busy staff.
                 </p>
               </div>
               <div className="relative rounded-2xl overflow-hidden h-64">
-                <img 
-                  src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                <img
+                  src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
                   alt="Café interior"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -81,8 +81,8 @@ function OurStory() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1 relative rounded-2xl overflow-hidden h-64">
-                <img 
-                  src="https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                <img
+                  src="https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
                   alt="Barista making coffee"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -97,11 +97,11 @@ function OurStory() {
                   Our Mission
                 </h2>
                 <p className="text-lg md:text-xl text-coffee-600 mb-4 leading-relaxed font-medium">
-                  At BrewNow Café, we're committed to providing an exceptional coffee experience that's both convenient and 
+                  At Coffee Cup, we're committed to providing an exceptional coffee experience that's both convenient and
                   personal. We believe that great coffee should be accessible, enjoyable, and sustainable.
                 </p>
                 <p className="text-lg md:text-xl text-coffee-600 leading-relaxed font-medium">
-                  Every bean is carefully selected, every cup is perfectly brewed, and every customer interaction is designed 
+                  Every bean is carefully selected, every cup is perfectly brewed, and every customer interaction is designed
                   to make you feel at home. We're not just serving coffee—we're creating moments.
                 </p>
               </div>
