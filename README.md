@@ -7,7 +7,7 @@ The **Coffee Cup** project is a modern, web-based application designed to stream
 In the digital age, the food and beverage industry is increasingly moving towards online solutions to improve efficiency and customer satisfaction. **Coffee Cup** is a Single Page Application (SPA) built to serve this purpose. It leverages modern web technologies to create a seamless bridge between the café's kitchen and the customer's table, ensuring accuracy and speed in service.
 
 The application is designed with a "customer-first" approach, focusing on intuitive navigation and a delightful visual experience. From the moment a user lands on the homepage to the final step of tracking their order, every interaction is crafted to be smooth and engaging. The use of glassmorphism and warm coffee tones creates a digital environment that mirrors the cozy atmosphere of a physical coffee shop.
-
+  
 ## • OBJECTIVE OF THE PROJECT
 The primary objectives of this project are:
 1.  To create a responsive and interactive user interface for a coffee shop.

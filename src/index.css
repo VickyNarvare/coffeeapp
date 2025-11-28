@@ -238,3 +238,8 @@
   }
 }
 
+body{
+  scrollbar-width: none;
+  scrollbar-color: none;
+  scrollbar-gutter: none;
+}
