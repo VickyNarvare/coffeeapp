@@ -102,11 +102,20 @@ coffee-cup/
 ### HOME PAGE (INDEX.HTML / HOME.JSX)
 The entry point of the application. It serves as the landing page featuring a Hero section that immediately grabs user attention, a "How It Works" guide, and a preview of the menu. It uses `index.html` as the root and `Home.jsx` for the content.
 
+### MENU PREVIEW SECTION
+Found in `src/components/sections/MenuPreview.jsx`. This section appears on the home page and showcases a curated selection of popular items. It features interactive cards with hover effects, allowing users to quickly add items to their cart or view details.
+
 ### ABOUT SECTION
 Located in `src/pages/OurStory.jsx`, this section narrates the journey of Coffee Cup. It highlights the mission, vision, and the passion behind the coffee making process, building a connection with the user.
 
 ### GALLERY SECTION (MENU)
 The `src/pages/Menu.jsx` acts as the gallery for the project. It displays a grid of high-quality images for each coffee and pastry item. Users can filter these items by categories like "Espresso", "Latte", and "Specialty".
+
+### CART COMPONENT
+Located in `src/components/Cart.jsx`, this slide-out sidebar manages the shopping cart, allowing users to modify items and place orders via table number.
+
+### ORDER TRACKING PAGE
+Located in `src/pages/OrderTracking.jsx`, this page allows customers to track the real-time status of their orders. By entering an Order ID or Table Number, users can see if their order is "Received", "Preparing", or "Ready", visualized through an intuitive progress tracker.
 
 ### CONTACT SECTION
 Found in `src/components/sections/Contact.jsx`. This section provides users with necessary contact information, including address, phone number, and email. It also features a layout for a contact form.
